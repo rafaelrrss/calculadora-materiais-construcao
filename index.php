@@ -102,7 +102,7 @@
         .then(resultado =>{
             let elementoResultado = document.getElementById("resultado");
 
-            elementoResultado.innerHTML = '';
+            //elementoResultado.innerHTML = '';
 
             const exibir =
             "<p> Área do comodo: " + resultado.areaComodo + " </p>" +

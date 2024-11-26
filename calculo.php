@@ -32,14 +32,3 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     echo json_encode(['erro' => 'Método não suportado. USe o POST']);
 }
 ?>
-
-feat: implementar a integração entre o frontend e o backend
-Programação Full-Stack
-11:37
-echo json_encode([
-        "areaComodo" => $areaComodo,
-        "areaPiso" => $areaPiso,
-        "quantidade" => $quantidadePiso,
-        "quantidadeMargem" => $margem,
-        "quantidadeTotal" => $quantidadeTotal
-    ]);
